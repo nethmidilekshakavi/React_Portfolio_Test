@@ -1,10 +1,10 @@
-import React from "react";
+
 import { Outlet, Route, Routes } from "react-router-dom";
 import About from "./pages/About.tsx";
 import Home from "./pages/Home.tsx";
 import Contact from "./pages/Contact.tsx";
 import Projects from "./pages/Projects.tsx";
-import NavBar from "./component/NavBar.tsx";
+import NavBar from "./pages/NavBar.tsx";
 
 
 const UserLayout = () => {
