@@ -1,4 +1,4 @@
-
+import React from "react";
 import { Outlet, Route, Routes } from "react-router-dom";
 import About from "./pages/About.tsx";
 import Home from "./pages/Home.tsx";
